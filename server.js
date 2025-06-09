@@ -414,7 +414,7 @@ app.get('/api/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 GIF Converter server running at http://localhost:${PORT}`);
   console.log('📁 Upload your GIF files to convert them to WebP or APNG!');
-});
+}); 
 
 // Export for Vercel
 module.exports = app;
